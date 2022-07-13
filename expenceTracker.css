@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+   align-items: center;
+   text-align: center;
+   height: 900px;
+   width: 500px;
+   border: 2px solid rgb(188, 185, 185);
+   line-height: 40px;
+   margin: auto;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   background: #134E5E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
+}
+.s1{
+    border: 2px solid rgb(188, 185, 185);
+    padding-top: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    text-shadow: 2px 1px 2px #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:#e6e0eb;
+    margin-top: -20px;
+}
+.s3{
+    height: 90px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-shadow: 2px 2px 2px #000000;
+}
+.p1{
+    font-size: 20px;
+    height: 80px;
+    width: 175px;
+    display: flex;
+  justify-content: center;
+   align-items: center;
+    border: 2px solid rgb(188, 185, 185);
+    border-radius: 10px;
+    color:lime;
+   background-color: #a892b9;
+   
+}
+#d1{
+    color: red;
+}
+#d2{
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    border-right:5px solid red;
+    border-left:5px solid lime;
+    padding-left: 5px;
+}
+table{
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
