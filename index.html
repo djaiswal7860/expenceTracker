@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="expenceTracker.css"> 
 </head>
 <body>
- <div class=".container">
+ <div class="container">
     <div class="s1">
         <h3>Your Balance</h3>
         <div class="Total"><span>&#x20B9</span><span class="Balance">0.0</span></div>
@@ -30,8 +30,10 @@
    <input type="number"  min="10"  step="5" class="productPrice" placeholder="Enter amount" id="d2"> <br><br>
    <h4>Date</h4>
    <input type="Date"  class="purchaseDate" id="d2"><br><br>
+   <div class="d3">
     <input type="submit" value="Income" onclick="getIncomeOfUser()"  class="btn btn-primary btn-md" data-bs-toggle="modal" data-bs-target="#myModal">
     <input type="submit" value="Expence" onclick="getDataOfUser()"  class="btn btn-dark btn-md" data-bs-toggle="modal" data-bs-target="#myModal">
+    </div>
     <div class="modal" id="myModal">
         <div class="modal-dialog ">
           <div class="modal-content">
