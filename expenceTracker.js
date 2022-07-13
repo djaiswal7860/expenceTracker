@@ -75,7 +75,7 @@ var sam=0;
     {
         if(sam==""||sum=="")
         {
-            Balance.innerHTML="0.0";
+            Balance.innerHTML=sam;
         }
         else{
         console.log(sum);
